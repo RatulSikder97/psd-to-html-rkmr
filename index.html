@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- VENDORS STYLES -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+
+    <!-- RESOURCES STYLES -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+    <title>Rokomari Assignment</title>
+</head>
+
+<body>
+    <!-- START HEADER SECTION -->
+    <header>
+        <div class="header-wrapper">
+            <div class="main-header">
+                <div class="container-fluid custom-container">
+                    <div class="row no-gutters">
+                        <div class="col-2">
+                            <div class="header-logo">
+                                <a href="rokomari.com">
+                                    <img src="/resources/img/logo.png" alt="Rokomari Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-7">
+                            <div class="search-bar">
+                                <form action="/search" method="get">
+                                    <div class="input-group search-section">
+                                        <div class="input-group-prepend">
+                                            <button class="btn select-btn dropdown-toggle" type="button"
+                                                data-toggle="dropdown">Books
+                                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Name 1</a>
+                                                <a class="dropdown-item" href="#">Name 1</a>
+                                                <a class="dropdown-item" href="#">Name 1</a>
+                                                <a class="dropdown-item" href="#">Name 1</a>
+                                            </div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Search by Book Name">
+                                        <div class="input-group-append">
+                                            <button class="btn" type="submit"><i class="fa fa-search"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="header-last">
+                                <div class="cart-menu">
+                                    <a href="/cart">
+                                        <img src="/resources/img/cart.png" alt="Cart Logo">
+                                    </a>
+                                </div>
+                                <div class="user-menu">
+                                    <a href="/user">
+                                        <img src="/resources/img/man.png" alt="User Icon">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="menu-container">
+                <nav>
+                    <ul>
+                        <li><a href="#">BOOKS</a></li>
+                        <li><a href="#">ELECTRONICS</a></li>
+                        <li><a href="#">GIFT FINDER</a></li>
+                        <li><a href="#">CORPORATE SALE</a></li>
+                        <li><a href="#">OTHERS</a></li>
+                        <li><a href="#">BLOG</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <!-- END HEADER SECTION -->
+
+    <!-- SLIDER SECTION START -->
+    <div class="slider-section ">
+        <div class="container-fluid d-flex h-100 flex-column slider-container custom-container">
+            <div class="row">
+                <div class="col-6">
+                    <p style="font-size: 2.5rem; color: #43b3ee;">Are you ready to learn?</p>
+                    <p style="font-size: 7.5rem; color: #fff; line-height: 1;">Start learning
+                        new things Daily</p>
+                    <button class="btn btn-start btn-danger">Let's Start</button>
+
+                </div>
+                <div class="col-6">
+                    <div class="banner-photo">
+                        <img src="/resources/img/pc.png" alt="pc photo" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- SLIDER SECTION END -->
+
+    <!-- review section start -->
+    <section class="container-fluid review-section custom-container">
+        <div class="row">
+            <div class="col-3">
+                <div class="view-card">
+                    <div class="view-icon">
+                        <div class="rank-icon">
+                            <img src="/resources/img/cap.png" alt="topics icon">
+                        </div>
+                        <div class="description">
+                            <h4>1500+ Topic</h4>
+                            <p class="little-description">Learn Anything</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="view-card">
+                    <div class="view-icon">
+                        <div class="rank-icon">
+                            <img src="/resources/img/student.png" alt="topics icon">
+                        </div>
+                        <div class="description">
+                            <h4>1800+ Students</h4>
+                            <p class="little-description">Learn Anything</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="view-card">
+                    <div class="view-icon">
+                        <div class="rank-icon">
+                            <img src="/resources/img/test.png" alt="topics icon">
+                        </div>
+                        <div class="description">
+                            <h4>9K+ Test Tokens</h4>
+                            <p class="little-description">Learn Anything</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="view-card">
+                    <div class="view-icon">
+                        <div class="rank-icon">
+                            <img src="/resources/img/grade.png" alt="topics icon">
+                        </div>
+                        <div class="description">
+                            <h4>2000 A+</h4>
+                            <p class="little-description">Learn Anything</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section end -->
+
+
+
+    <!-- vendor scripts -->
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
