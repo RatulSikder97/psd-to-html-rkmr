@@ -189,11 +189,11 @@ header .main-header .header-last {
 }
 
 /* review section */
-.review-section {
+.report-section {
   min-height: 52rem;
   width: 100%;
 }
-.review-section .row {
+.report-section .row {
   justify-content: center;
   align-items: center;
   height: 100%;
