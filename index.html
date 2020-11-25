@@ -27,6 +27,7 @@
         <div class="header-wrapper">
             <div class="main-header">
                 <div class="container-fluid custom-container">
+                    <!-- logo -->
                     <div class="row no-gutters">
                         <div class="col-lg-2 mb-2 col-md-12">
                             <div class="header-logo">
@@ -35,6 +36,7 @@
                                 </a>
                             </div>
                         </div>
+                        <!-- dropdown start -->
                         <div class="col-lg-7 col-md-9 col-sm-9 col-12">
                             <div class="search-bar">
                                 <form action="/search" method="get">
@@ -60,6 +62,9 @@
                                 </form>
                             </div>
                         </div>
+                        <!-- dropdown end -->
+
+                        <!-- user options -->
                         <div class="col-12 col-lg-3 col-md-3 col-sm-3">
                             <div class="header-last">
                                 <div class="cart-menu">
@@ -75,14 +80,17 @@
 
                             </div>
                         </div>
+                        <!-- user options end-->
                     </div>
                 </div>
             </div>
             <hr>
+            <!-- nav bar start -->
             <div class="menu-container">
                 <nav>
                     <ul>
-                        <li><a href="#" id="books">BOOKS</a></li>
+                        <li><a href="#" id="books">BOOKS</a>
+                        </li>
                         <li><a href="#" id="electronic">ELECTRONICS</a></li>
                         <li><a href="#" id="gift">GIFT FINDER</a></li>
                         <li><a href="#" id="corporate">CORPORATE SALE</a></li>
@@ -90,11 +98,162 @@
                         <li><a href="#">BLOG</a></li>
                     </ul>
                 </nav>
+                <!-- sub menu book-->
+                <ul id="book-menu" class="sub-menu">
+                    <div class="row">
+                        <div class="cat-list col-6 col-sm-4">
+                            <li><a href="#">Book Cat 1</a></li>
+                            <li><a href="#">Book Cat 1</a></li>
+                            <li><a href="#">Book Cat 1</a></li>
+                            <li><a href="#">Book Cat 1</a></li>
+                            <li><a href="#">Book Cat 1</a></li>
+                            <li><a href="#">Book Cat 1</a></li>
+                        </div>
+
+                        <div class="cat-list col-6 col-sm-4">
+                            <li><a href="#">Book Cat 2</a></li>
+                            <li><a href="#">Book Cat 2</a></li>
+                            <li><a href="#">Book Cat 2</a></li>
+                            <li><a href="#">Book Cat 2</a></li>
+                            <li><a href="#">Book Cat 2</a></li>
+                            <li><a href="#">Book Cat 2</a></li>
+                        </div>
+
+                        <div class="cat-list col-6 col-sm-4">
+                            <li><a href="#">Book Cat 2</a></li>
+                            <li><a href="#">Book Cat 2</a></li>
+                            <li><a href="#">Book Cat 2</a></li>
+                            <li><a href="#">Book Cat 2</a></li>
+                            <li><a href="#">Book Cat 2</a></li>
+                            <li><a href="#">Book Cat 2</a></li>
+                        </div>
+                    </div>
+                </ul>
+
+                <!-- sub menu electronic-->
+                <ul id="electronic-menu" class="sub-menu">
+                    <div class="row">
+                        <div class="cat-list col-6">
+                            <li><a href="#">Electronic Cat 1</a></li>
+                            <li><a href="#">Electronic Cat 1</a></li>
+                            <li><a href="#">Electronic Cat 1</a></li>
+                            <li><a href="#">Electronic Cat 1</a></li>
+                            <li><a href="#">Electronic Cat 1</a></li>
+                            <li><a href="#">Electronic Cat 1</a></li>
+                        </div>
+
+                        <div class="cat-list col-6">
+                            <li><a href="#">Electronic Cat 2</a></li>
+                            <li><a href="#">Electronic Cat 2</a></li>
+                            <li><a href="#">Electronic Cat 2</a></li>
+                            <li><a href="#">Electronic Cat 2</a></li>
+                            <li><a href="#">Electronic Cat 2</a></li>
+                            <li><a href="#">Electronic Cat 2</a></li>
+                        </div>
+                    </div>
+                </ul>
+
+                <!-- sub menu gift-->
+                <ul id="gift-menu" class="sub-menu">
+                    <div class="row">
+                        <div class="cat-list col-6 col-sm-4">
+                            <li><a href="#">Gift Cat 1</a></li>
+                            <li><a href="#">Gift Cat 1</a></li>
+                            <li><a href="#">Gift Cat 1</a></li>
+                            <li><a href="#">Gift Cat 1</a></li>
+                            <li><a href="#">Gift Cat 1</a></li>
+                            <li><a href="#">Gift Cat 1</a></li>
+                        </div>
+
+                        <div class="cat-list col-6 col-sm-4">
+                            <li><a href="#">Gift Cat 2</a></li>
+                            <li><a href="#">Gift Cat 2</a></li>
+                            <li><a href="#">Gift Cat 2</a></li>
+                            <li><a href="#">Gift Cat 2</a></li>
+                            <li><a href="#">Gift Cat 2</a></li>
+                            <li><a href="#">Gift Cat 2</a></li>
+                        </div>
+
+                        <div class="cat-list col-6 col-sm-4">
+                            <li><a href="#">Gift Cat 2</a></li>
+                            <li><a href="#">Gift Cat 2</a></li>
+                            <li><a href="#">Gift Cat 2</a></li>
+                            <li><a href="#">Gift Cat 2</a></li>
+                            <li><a href="#">Gift Cat 2</a></li>
+                            <li><a href="#">Gift Cat 2</a></li>
+                        </div>
+                    </div>
+                </ul>
+
+                <!-- sub menu corporate -->
+                <ul id="corporate-menu" class="sub-menu">
+                    <div class="row justify-content-around">
+                        <div class="cat-list col-6 col-sm-3">
+                            <li><a href="#">Corporate Cat 1</a></li>
+                            <li><a href="#">Corporate Cat 1</a></li>
+                            <li><a href="#">Corporate Cat 1</a></li>
+                            <li><a href="#">Corporate Cat 1</a></li>
+                            <li><a href="#">Corporate Cat 1</a></li>
+                            <li><a href="#">Corporate Cat 1</a></li>
+                        </div>
+
+                        <div class="cat-list col-6 col-sm-3">
+                            <li><a href="#">Corporate Cat 2</a></li>
+                            <li><a href="#">Corporate Cat 2</a></li>
+                            <li><a href="#">Corporate Cat 2</a></li>
+                            <li><a href="#">Corporate Cat 2</a></li>
+                            <li><a href="#">Corporate Cat 2</a></li>
+                            <li><a href="#">Corporate Cat 2</a></li>
+                        </div>
+                        <div class="cat-list col-6 col-sm-3">
+                            <li><a href="#">Corporate Cat 1</a></li>
+                            <li><a href="#">Corporate Cat 1</a></li>
+                            <li><a href="#">Corporate Cat 1</a></li>
+                            <li><a href="#">Corporate Cat 1</a></li>
+                            <li><a href="#">Corporate Cat 1</a></li>
+                            <li><a href="#">Corporate Cat 1</a></li>
+                        </div>
+
+                        <div class="cat-list col-6 col-sm-3">
+                            <li><a href="#">Corporate Cat 2</a></li>
+                            <li><a href="#">Corporate Cat 2</a></li>
+                            <li><a href="#">Corporate Cat 2</a></li>
+                            <li><a href="#">Corporate Cat 2</a></li>
+                            <li><a href="#">Corporate Cat 2</a></li>
+                            <li><a href="#">Corporate Cat 2</a></li>
+                        </div>
+                    </div>
+                </ul>
+
+
+                <!-- sub menu other -->
+                <ul id="other-menu" class="sub-menu">
+                    <div class="row justify-content-around">
+                        <div class="cat-list col-6 ">
+                            <li><a href="#">Others Cat 1</a></li>
+                            <li><a href="#">Others Cat 1</a></li>
+                            <li><a href="#">Others Cat 1</a></li>
+                            <li><a href="#">Others Cat 1</a></li>
+                            <li><a href="#">Others Cat 1</a></li>
+                            <li><a href="#">Others Cat 1</a></li>
+                        </div>
+
+                        <div class="cat-list col-6 ">
+                            <li><a href="#">Others Cat 2</a></li>
+                            <li><a href="#">Others Cat 2</a></li>
+                            <li><a href="#">Others Cat 2</a></li>
+                            <li><a href="#">Others Cat 2</a></li>
+                            <li><a href="#">Others Cat 2</a></li>
+                            <li><a href="#">Others Cat 2</a></li>
+                        </div>
+
+                    </div>
+                </ul>
+
             </div>
         </div>
-        <div class="sub-menu-wrapper">
+        <!-- nav bar end -->
 
-        </div>
     </header>
     <!-- END HEADER SECTION -->
 
@@ -102,13 +261,15 @@
     <div class="slider-section ">
         <div class="container-fluid d-flex h-100 flex-column slider-container custom-container">
             <div class="row">
+                <!-- banner text -->
                 <div class="col-12 col-sm-6">
                     <p style="font-size: 2.5rem; color: #43b3ee;">Are you ready to learn?</p>
                     <p style="font-size: 7.5rem; color: #fff; line-height: 1;">Start learning
                         new things Daily</p>
                     <button class="btn btn-start btn-danger">Let's Start</button>
-
                 </div>
+
+                <!-- banner image -->
                 <div class="col-6">
                     <div class="banner-photo">
                         <img src="/resources/img/pc.png" alt="pc photo" srcset="">
@@ -120,9 +281,10 @@
     </div>
     <!-- SLIDER SECTION END -->
 
-    <!-- review section start -->
+    <!-- report section start -->
     <section class="container-fluid review-section custom-container">
         <div class="row">
+            <!-- report card one -->
             <div class="col-12 col-sm-3  col-lg-3">
                 <div class="view-card">
                     <div class="view-icon">
@@ -136,6 +298,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- report card two -->
             <div class="col-12 col-sm-3  col-lg-3">
                 <div class="view-card">
                     <div class="view-icon">
@@ -149,6 +313,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- report card three -->
             <div class="col-12 col-sm-3  col-lg-3">
                 <div class="view-card">
                     <div class="view-icon">
@@ -162,6 +328,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- report card four -->
             <div class="col-12 col-sm-3 col-lg-3">
                 <div class="view-card">
                     <div class="view-icon">
@@ -175,17 +343,20 @@
                     </div>
                 </div>
             </div>
+            <!-- card end -->
         </div>
     </section>
-    <!-- review section end -->
+    <!-- report section end -->
 
     <!-- START ONLINE COURSES SECTION -->
     <section class="online-course ">
-
         <div class="course-container container-fluid custom-container">
+            <!-- title -->
             <p class="title">Online Courses</p>
 
+            <!-- course card start -->
             <div class="row course-card-container">
+                <!-- course card one -->
                 <div class="col-12 col-sm-4">
                     <div class="card">
                         <img src="/resources/img/psy-photo.png" alt="course banner" class="course-photo">
@@ -193,6 +364,7 @@
                         <div class="batch">
                             Free
                         </div>
+                        <!-- Course  info  -->
                         <div class="course-info">
                             <h3 class="course-title">
                                 Modern Psychology
@@ -201,6 +373,7 @@
                             <button class="btn btn-danger course-btn">
                                 Buy Course
                             </button>
+                            <!-- time and seat -->
                             <div class="course-footer">
                                 <div class="course-time">
                                     <img src="/resources/img/calender.png" alt="course time" class="c-icon">
@@ -212,9 +385,10 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
+
+                <!-- course card two -->
                 <div class="col-12 col-sm-4">
                     <div class="card">
                         <img src="/resources/img/hr-photo.png" alt="course banner" class="course-photo">
@@ -222,6 +396,7 @@
                         <div class="batch">
                             Free
                         </div>
+                        <!-- Course  info  -->
                         <div class="course-info">
                             <h3 class="course-title">
                                 Modern Psychology
@@ -230,6 +405,7 @@
                             <button class="btn btn-danger course-btn">
                                 Buy Course
                             </button>
+                            <!-- time and seat -->
                             <div class="course-footer">
                                 <div class="course-time">
                                     <img src="/resources/img/calender.png" alt="course time" class="c-icon">
@@ -241,9 +417,10 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
+
+                <!-- course card three -->
                 <div class="col-12 col-sm-4">
                     <div class="card">
                         <img src="/resources/img/mpsy-photo.png" alt="course banner" class="course-photo">
@@ -251,6 +428,7 @@
                         <div class="batch">
                             Free
                         </div>
+                        <!-- Course  info  -->
                         <div class="course-info">
                             <h3 class="course-title">
                                 Modern Psychology
@@ -260,6 +438,7 @@
                             <button class="btn btn-danger course-btn">
                                 Buy Course
                             </button>
+                            <!-- time and seat -->
                             <div class="course-footer">
                                 <div class="course-time">
                                     <img src="/resources/img/calender.png" alt="course time" class="c-icon">
@@ -275,15 +454,16 @@
                     </div>
                 </div>
             </div>
+            <!-- course card end -->
         </div>
 
+        <!-- dot separator -->
         <div class="dot-img-1">
             <img src="/resources/img/dot.png" alt="">
         </div>
         <div class="dot-img-2">
             <img src="/resources/img/dot.png" alt="">
         </div>
-
     </section>
     <!-- END ONLINE COURSES SECTION -->
 
@@ -300,9 +480,11 @@
                         <div class="carousel-item active">
                             <div class="user-review">
                                 <div class="row">
+                                    <!-- client image -->
                                     <div class="col-3">
                                         <img src="/resources/img/testimonial-img.png" alt="">
                                     </div>
+                                    <!-- comment -->
                                     <div class="col-9">
                                         <i class="fa fa-quote-left" aria-hidden="true"></i>
                                         <p class="comment">
@@ -339,10 +521,14 @@
                         <div class="carousel-item">
                             <div class="user-review">
                                 <div class="row">
+                                    <!-- client image -->
                                     <div class="col-3">
                                         <img src="/resources/img/testimonial-img.png" alt="">
                                     </div>
+
+
                                     <div class="col-9">
+                                        <!-- commetns -->
                                         <i class="fa fa-quote-left" aria-hidden="true"></i>
                                         <p class="comment">
 
@@ -374,11 +560,8 @@
                                 </div>
                             </div>
                         </div>
-
-
-
-
                     </div>
+                    <!-- carousel control  -->
                     <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
@@ -397,12 +580,13 @@
     <section class="footer-section">
         <div class="footer-wrapper custom-container container-fluid">
             <div class="row newsletter">
-                <div class="col-12 col-sm-7">
+                <div class="col-12 col-sm-5">
                     <h3>Subscribe to Our Newsletter</h3>
                     <p>Don’t miss any updates of our new Course and
                         all the astonishing offers.</p>
                 </div>
-                <div class="col-12 col-sm-5">
+                <!-- email from -->
+                <div class="col-12 col-sm-7">
                     <form action="#" method="post">
                         <div class="form-group d-flex flex-row">
                             <input type="email" class="form-control" name="email" id="email" aria-describedby="helpId"
@@ -418,13 +602,14 @@
             <footer class="large-footer">
                 <div class="container-fluid custom-container">
                     <div class="row">
-
+                        <!-- description -->
                         <div class="col-12 col-sm-5 basic-info">
                             <div class="footer-basic-info">
                                 <p style="font-size: 1.6rem;">Millions of people of all ages and from
                                     around the world are improving their
                                     lives with us</p>
                             </div>
+                            <!-- copy right -->
                             <div class="coptright">
                                 <p style="font-size: 1.4rem;"></p> Copyright &copy2020 Rokomari.com
                             </div>
@@ -462,11 +647,8 @@
                                         </ul>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </footer>
@@ -482,9 +664,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- resource scripts -->
     <script src="/resources/js/app.js"></script>
-
-
 </body>
 
 </html>
