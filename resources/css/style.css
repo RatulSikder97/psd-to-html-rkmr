@@ -86,7 +86,7 @@ header .main-header .header-last {
 
 /* menu container */
 .menu-container {
-  height: 5.5rem;
+  min-height: 5.5rem;
   width: 80%;
   text-align: center;
   margin: 0 auto;
@@ -188,7 +188,7 @@ header .main-header .header-last {
 
 /* review section */
 .review-section {
-  height: 52rem;
+  min-height: 52rem;
   width: 100%;
 }
 .review-section .row {
@@ -198,9 +198,10 @@ header .main-header .header-last {
 }
 .view-card {
   height: 28rem;
-  width: 27rem;
+  min-width: 27rem;
   box-shadow: 0.2rem 0.2rem 1rem #a1a1a1;
   border-radius: 1rem;
+  margin: 2rem;
 }
 
 .view-icon {
@@ -243,9 +244,30 @@ header .main-header .header-last {
 
 /* online courses */
 .online-course {
-  height: 108rem;
+  position: relative;
+  min-height: 108rem;
   width: 100%;
   background-color: #f2f9ff;
+  z-index: 2;
+}
+
+/* dot sep  */
+.dot-img-2 {
+  position: absolute;
+  top: -7rem;
+  right: 2rem;
+  z-index: -1;
+}
+.dot-img-1 {
+  position: absolute;
+  bottom: -7rem;
+  left: 2rem;
+  z-index: -1;
+}
+.dot-img-2 img,
+.dot-img-1 img {
+  height: 60%;
+  width: 60%;
 }
 
 .title {
@@ -262,10 +284,12 @@ header .main-header .header-last {
 
 .card {
   height: 52rem;
-  width: 37rem;
+  min-width: 37rem;
   background: #fff;
   box-shadow: 0.2rem 0.2rem 1rem #a1a1a1;
   border-radius: 1rem;
+  margin: 2rem auto;
+  z-index: 3;
 }
 
 .card .course-photo {
@@ -342,7 +366,14 @@ header .main-header .header-last {
   font-size: 1.4rem;
   color: #555555;
 }
+.course-footer img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
 /* testimonial section */
+.testimonial-section {
+  z-index: 2;
+}
 
 .testimonial-section .title {
   padding-top: 15rem;
@@ -413,6 +444,8 @@ header .main-header .header-last {
 .newsletter {
   height: 23rem;
   width: 100%;
+  margin: 0 auto;
+
   border-radius: 2rem;
   background: #fff;
   display: flex;
